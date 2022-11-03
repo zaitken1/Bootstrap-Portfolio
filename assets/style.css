@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* GLOBAL STYLES */
 html, body {
     height: 100%;
 }
 
+/* CUSTOM STYLES */
 #navbarNav {
     display: flex;
     justify-content: flex-end;
@@ -33,3 +35,5 @@ html, body {
     height: 500px;
     width: 500px;
 }
+
+
