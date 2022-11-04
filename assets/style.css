@@ -48,8 +48,10 @@ p {
     width: 500px;
 }
 
-.landing-page, .travel-blog, .artwave-west {
-    width: 100%;
+.btn, .btn-primary {
+    background-color: #A4C2A5;
+    border: none;
+    color: white;
 }
 
 
