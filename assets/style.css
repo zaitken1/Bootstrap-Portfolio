@@ -14,6 +14,14 @@ p {
     font-size: 1.1rem;
 }
 
+a {
+    color: #A4C2A5;
+}
+
+a:hover {
+    color: #647AA3;
+}
+
 /* CUSTOM STYLES */
 
 .navbar, .navbar-expand-lg, .navbar-light, .bg-light {
