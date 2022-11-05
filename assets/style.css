@@ -39,6 +39,10 @@ a:hover {
     font-size: 1.1rem;
 }
 
+.navbar-nav, .nav-link:hover {
+    color:#A4C2A5!important;
+}
+
 .jumbotron {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images/zara-aitken.png);
     color: white;
@@ -64,6 +68,7 @@ a:hover {
 .btn-primary:hover {
     background-color: #93ae94;
     border: none;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
 .skills-photo {
@@ -86,5 +91,9 @@ footer {
 
 .fa-brands {
     color: white;
+}
+
+.fa-brands:hover {
+    color: #A4C2A5
 }
 
