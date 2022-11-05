@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width", initial-scale="1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="./assets/style.css">
+        <script src="https://kit.fontawesome.com/55226754e4.js" crossorigin="anonymous"></script>
         <title>Zara Aitken | Web Developer</title>
     </head>
     <body>
@@ -25,13 +26,17 @@
                     Portfolio
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#landing-page" target="_blank">Landing Page</a>
-                    <a class="dropdown-item" href="#travel-blog" target="_blank">Passport for Living</a>
-                    <a class="dropdown-item" href="#artwave-west" target="_blank">Artwave West</a>
+                    <a class="dropdown-item" href="#landing-page">Landing Page</a>
+                    <a class="dropdown-item" href="#travel-blog">Passport for Living</a>
+                    <a class="dropdown-item" href="#artwave-west">Artwave West</a>
+                    <a class="dropdown-item" href="#nick-matthews">Nick Matthews Photography</a>
                   </div>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link pr-3 pl-3" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pr-3 pl-3" href="#skills">Skills</a>
                 </li>
               </ul>
             </div>
@@ -61,7 +66,7 @@
             <section class="row">
               <section class="col-lg-6 col-md-6 col-sm-12">
                 <div class="card mt-2 mb-2">
-                  <img src="./assets/images/landing-page.jpg" class="card-img-top" alt="Screenshot of a basic landing page">
+                  <img id="landing-page" src="./assets/images/landing-page.jpg" class="card-img-top" alt="Screenshot of a basic landing page">
                   <div class="card-body">
                     <h5 class="card-title">Landing Page</h5>
                     <p class="card-text">A very basic landing page as one of my first HTML and basic CSS projects during bootcamp.</p>
@@ -71,7 +76,7 @@
               </section>
               <section class="col-lg-6 col-md-6 col-sm-12">
                 <div class="card mt-2 mb-2">
-                  <img src="./assets/images/passport-for-living.jpg" class="card-img-top" alt="Screenshot of Passport for Living Travel Blog website">
+                  <img id="travel-blog" src="./assets/images/passport-for-living.jpg" class="card-img-top" alt="Screenshot of Passport for Living Travel Blog website">
                   <div class="card-body">
                     <h5 class="card-title">Passport for Living</h5>
                     <p class="card-text">My own travel blog which I built using WordPress and some basic bespoke CSS.</p>
@@ -83,7 +88,7 @@
             <section class="row">
               <section class="col-lg-6 col-md-6 col-sm-12">
                 <div class="card mt-2 mb-2">
-                  <img src="./assets/images/artwave-west.jpg" target="_blank" class="card-img-top" alt="Screenshot of Artwave West art gallery website">
+                  <img id="artwave-west" src="./assets/images/artwave-west.jpg" target="_blank" class="card-img-top" alt="Screenshot of Artwave West art gallery website">
                   <div class="card-body">
                     <h5 class="card-title">Artwave West</h5>
                     <p class="card-text">A freelance project for a local art gallery, built using WordPress and bespoke CSS.</p>
@@ -93,7 +98,7 @@
               </section>
               <section class="col-lg-6 col-md-6 col-sm-12">
                 <div class="card mt-2 mb-2">
-                  <img src="./assets/images/nick-matthews.jpg" class="card-img-top" alt="Screenshot of a basic landing page">
+                  <img id="nick-matthews" src="./assets/images/nick-matthews.jpg" class="card-img-top" alt="Screenshot of a basic landing page">
                   <div class="card-body">
                     <h5 class="card-title">Nick Matthews Photography</h5>
                     <p class="card-text">A simple brochure website for a local photographer using the Squarespace platform.</p>
@@ -103,6 +108,38 @@
               </section>
             </section>
           </section>
+          <section class="container pt-5 pb-5">
+            <section class="row">
+                <section class="col-lg-6 col-md-12 col-sm-12 align-self-center">
+                   <h3 id="skills">Skills</h3>
+                   <p>During this course, I expect to learn the following skills:</p>
+                    <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>GitHub</li>
+                      <li>Command Line</li>
+                      <li>JavaScript</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                </section>
+                <section class="col-lg-6 col-md-12 col-sm-12 align-self-center">
+                  <img class="skills-photo" src="./assets/images/coding.jpg" alt="Profile image of Zara Aitken">
+                </section>
+            </section>
+          </section>
+          <footer>
+            <section class="d-flex justify-content-center">
+              <i class="fa-brands fa-square-facebook fa-2x mt-3 mb-3 ml-2 mr-2"></i>
+              <i class="fa-brands fa-linkedin-in fa-2x mt-3 mb-3 ml-2 mr-2"></i>
+              <i class="fa-brands fa-instagram fa-2x mt-3 mb-3 ml-2 mr-2"></i>
+            </section>
+            <section class="d-flex justify-content-center">
+              <a class="footer-link mt-3 mb-3 ml-2 mr-2" href="#about">About</a>
+              <a class="footer-link mt-3 mb-3 ml-2 mr-2" href="#contact">Contact</a>
+              <a class="footer-link mt-3 mb-3 ml-2 mr-2" href="#portfolio">Portfolio</a>
+              <a class="footer-link mt-3 mb-3 ml-2 mr-2" href="#skills">Skills</a>
+            </section>
+          </footer>
           <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

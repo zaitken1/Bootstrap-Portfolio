@@ -20,6 +20,7 @@ a {
 
 a:hover {
     color: #647AA3;
+    text-decoration: none;
 }
 
 /* CUSTOM STYLES */
@@ -52,8 +53,7 @@ a:hover {
 }
 
 .profile-photo {
-    height: 500px;
-    width: 500px;
+    width: 100%;
 }
 
 .btn, .btn-primary {
@@ -66,5 +66,25 @@ a:hover {
     border: none;
 }
 
+.skills-photo {
+    width: 100%;
+}
 
+footer {
+    background-color: #647AA3;
+    height: 120px;
+}
+
+.footer-link {
+    color: white;
+}
+
+.footer-link:hover {
+    color: #A4C2A5;
+    text-decoration: none;
+}
+
+.fa-brands {
+    color: white;
+}
 
