@@ -29,6 +29,10 @@ a:hover {
     background-color: #647AA3 !important;
 }
 
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+
 .navbar-light, .navbar-brand {
     color: white!important;
     font-size: 1.8rem;
@@ -39,7 +43,7 @@ a:hover {
     font-size: 1.1rem;
 }
 
-.navbar-nav, .nav-link:hover, .nav-link:focus {
+.navbar-nav, .nav-link:hover, .nav-link:focus, .navbar-brand:hover, .navbar-brand:focus {
     color:#A4C2A5!important;
 }
 
@@ -97,4 +101,25 @@ footer {
     color: #A4C2A5
 }
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 990px) {
+    .contact {
+        margin: 20px;
+    }
+
+    .my-work {
+        justify-content: flex-start!important;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .display-4 {
+        font-size: 1.5rem;
+    }
+
+    .jumbotron {
+        height: 50%;
+        background-position: right;
+    }
+}
 
