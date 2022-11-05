@@ -23,8 +23,19 @@ a:hover {
     text-decoration: none;
 }
 
-/* CUSTOM STYLES */
+.btn, .btn-primary {
+    background-color: #A4C2A5;
+    border: none;
+}
 
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #93ae94;
+    border: none;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+/* CUSTOM STYLES */
+/* Navbar */
 .navbar, .navbar-expand-lg, .navbar-light, .bg-light {
     background-color: #647AA3 !important;
 }
@@ -47,6 +58,7 @@ a:hover {
     color:#A4C2A5!important;
 }
 
+/* Jumbotron/Hero */
 .jumbotron {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images/zara-aitken.png);
     color: white;
@@ -60,25 +72,17 @@ a:hover {
     height: 100%;
 }
 
+/* Profile Section */
 .profile-photo {
     width: 100%;
 }
 
-.btn, .btn-primary {
-    background-color: #A4C2A5;
-    border: none;
-}
-
-.btn-primary:hover, .btn-primary:focus {
-    background-color: #93ae94;
-    border: none;
-    box-shadow: 0 0 11px rgba(33,33,33,.2);
-}
-
+/* Skills section */
 .skills-photo {
     width: 100%;
 }
 
+/* Footer */
 footer {
     background-color: #647AA3;
     height: 120px;
